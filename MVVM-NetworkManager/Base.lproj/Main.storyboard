@@ -35,7 +35,12 @@
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HfP-V6-sQX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <customObject id="ma7-EI-tOZ" customClass="ViewModel" customModule="MVVM_NetworkManager" customModuleProvider="target"/>
+                <customObject id="ma7-EI-tOZ" customClass="ViewModel" customModule="MVVM_NetworkManager" customModuleProvider="target">
+                    <connections>
+                        <outlet property="networkManager" destination="evp-2K-wRS" id="sVZ-m4-7Vg"/>
+                    </connections>
+                </customObject>
+                <customObject id="evp-2K-wRS" customClass="NetworkManager" customModule="MVVM_NetworkManager" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="23" y="11"/>
         </scene>

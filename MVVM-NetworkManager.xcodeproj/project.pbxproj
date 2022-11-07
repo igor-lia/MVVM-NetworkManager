@@ -14,6 +14,7 @@
 		9DB2627829191D7F00ECCDE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DB2627729191D7F00ECCDE4 /* Assets.xcassets */; };
 		9DB2627B29191D7F00ECCDE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB2627929191D7F00ECCDE4 /* LaunchScreen.storyboard */; };
 		9DB2628329191E6300ECCDE4 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB2628229191E6300ECCDE4 /* ViewModel.swift */; };
+		9DB2628529191F0200ECCDE4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB2628429191F0200ECCDE4 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9DB2627A29191D7F00ECCDE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DB2627C29191D7F00ECCDE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DB2628229191E6300ECCDE4 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		9DB2628429191F0200ECCDE4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				9DB2626E29191D7E00ECCDE4 /* AppDelegate.swift */,
 				9DB2627029191D7E00ECCDE4 /* SceneDelegate.swift */,
 				9DB2627229191D7E00ECCDE4 /* TableViewController.swift */,
+				9DB2628429191F0200ECCDE4 /* NetworkManager.swift */,
 				9DB2627429191D7E00ECCDE4 /* Main.storyboard */,
 				9DB2628229191E6300ECCDE4 /* ViewModel.swift */,
 				9DB2627729191D7F00ECCDE4 /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			files = (
 				9DB2627329191D7E00ECCDE4 /* TableViewController.swift in Sources */,
 				9DB2626F29191D7E00ECCDE4 /* AppDelegate.swift in Sources */,
+				9DB2628529191F0200ECCDE4 /* NetworkManager.swift in Sources */,
 				9DB2628329191E6300ECCDE4 /* ViewModel.swift in Sources */,
 				9DB2627129191D7E00ECCDE4 /* SceneDelegate.swift in Sources */,
 			);
