@@ -9,6 +9,8 @@ import UIKit
 
 class TableViewController: UITableViewController {
 
+    @IBOutlet var viewModel: ViewModel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

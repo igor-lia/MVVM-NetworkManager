@@ -30,8 +30,12 @@
                             <outlet property="delegate" destination="KSe-9G-JNR" id="WbB-0v-FEh"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="viewModel" destination="ma7-EI-tOZ" id="dGz-KF-sS3"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HfP-V6-sQX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <customObject id="ma7-EI-tOZ" customClass="ViewModel" customModule="MVVM_NetworkManager" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="23" y="11"/>
         </scene>
